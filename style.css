@@ -1,0 +1,184 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body { width: 100%;
+    background: #0c111b;
+    position: relative;
+    font-family: roboto ,sans-serif;
+
+}
+
+.navbar{
+    width: 100%;
+    height: 10%;
+    position: fixed ;
+    top: 0;
+    left: 0 ;
+    padding: 0 4%;
+    background: #0c111b;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo{
+    height: 70px;
+
+}
+.nav-links{
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+
+}
+.nav-items a {
+    text-decoration: none;
+    margin-left: 20px;
+    text-transform: capitalize;
+    color: white;
+    opacity: 0.8;
+
+
+}
+.right-container{
+
+    display: block;
+    margin-left: auto;
+}
+
+.search-box{
+    border: none;
+    border-bottom: 3px solid #aaa;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    width: 250px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.4s ;
+}
+.search-box:focus{
+           width: 500px;
+           border-color: #1f80e0;
+}
+.sub-button{
+    background: #1f80e0;
+    height: 30px;
+    width:  90px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.login-link{
+    color: #fff;
+    opacity: 0.8;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    padding: 20px 0;
+    overflow-x : hidden ;
+    margin-top : 80px;
+
+
+}
+
+.carousel {
+ display: flex;
+ width: 92%;
+ height: 100%;
+ position: relative;
+ margin: auto;
+}
+
+.video-card-container{
+           position: relative;
+           width: 95%;
+           margin: auto;
+           height: 10vw;
+           display: flex;
+           margin-bottom: 20px;
+           justify-content: space-between;
+
+}
+
+.video-card{
+       position: relative;
+       min-width: calc(100% / 5 - 10px );
+       width:calc(100% / 5 - 10px ) ;
+       height: 100%;
+       border-radius: 10px;
+       overflow: hidden;
+       background-color: #030b17;
+}
+
+.card-video,
+.video-card-image{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-card:hover .video-card-image{
+
+    position: absolute;
+    display: none;
+}
+
+.title{
+    color: #fff;
+    opacity: 0.9;
+    padding-left: 4%;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.movies-list{
+
+    width: 100%;
+    height: 220px;
+    position: relative;
+    margin: 10px 0 20px;
+}
+
+.card-container{
+
+    position: relative;
+    width: 92%;
+    padding-left: 10px ;
+    height: 220px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: visible;
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
